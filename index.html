@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ sinh thái và động vật hoang dã ở Bến Tre</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/bg4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+
+        header {
+            background-color: rgba(98, 0, 234, 0.8);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: center;
+            margin: 80px 0;
+            font-size: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        h1:first-of-type {
+            margin-bottom: 5px;
+        }
+
+        h1:last-of-type {
+            margin-top: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .image-link:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        .image-link img {
+            display: block;
+            max-width: 340px;
+            height: 250px;
+            border-radius: 8px;
+        }
+
+        .image-link span {
+            display: block;
+            margin-top: -35px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+            text-align: center;
+        }
+
+        .image-link {
+            text-decoration: none;
+        }
+
+        /* Media Queries for responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 30px; /* Reduce font size for smaller screens */
+                margin: 50px 0;
+            }
+
+            .image-link img {
+                max-width: 100%; /* Make images responsive */
+                height: auto;
+            }
+
+            .image-container {
+                gap: 10px; /* Reduce gap between images */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 25px; /* Further reduce font size for very small screens */
+            }
+
+            .image-link img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .image-container {
+                gap: 5px; /* Further reduce gap between images */
+            }
+        } 
+    </style>
+</head>
+<body>
+    <!-- Tiêu đề và ảnh -->
+    <h1>HỆ SINH THÁI VÀ ĐỘNG VẬT HOANG DÃ</h1>
+    <h1>Ở BẾN TRE</h1>
+    <div class="image-container">
+        <a href="hst.html" class="image-link">
+            <img src="images/bg1.JPG" alt="hst ">
+            <span>HỆ SINH THÁI BẾN TRE</span>
+        </a>
+        <a href="dvhd.html" class="image-link">
+            <img src="images/bg6.JPG" alt="Ahri">
+            <span>ĐỘNG VẬT HOANG DÃ</span>
+        </a>
+        <a href="kbt.html" class="image-link">
+            <img src="images/bg0.JPG" alt="Ekko">
+            <span>CÁC KHU BẢO TỒN</span>
+        </a>
+    </div>
+</body>
+</html>
